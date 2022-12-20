@@ -29,9 +29,9 @@ public class Admin extends Utilizador{
         pass=scanner.next();
 
         if (utilizador.getUsername().equals(user) && utilizador.getPassword().equals(pass))
-            System.out.println("logado com Sucesso");
+            System.out.println("login COM Sucesso");
         else{
-            System.out.println("logado com Insucesso");
+            System.out.println("login SEM Sucesso");
         }
 
     }
