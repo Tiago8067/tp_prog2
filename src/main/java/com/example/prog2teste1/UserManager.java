@@ -8,4 +8,9 @@ public class UserManager extends Utilizador{
     public UserManager(String username, String email, String password, String nome, String genero, String dataDeNascimento, String codigoPostal, String morada) {
         super(username, email, password, nome, genero, dataDeNascimento, codigoPostal, morada);
     }
+
+    @Override
+    public void login(Utilizador utilizador) {
+
+    }
 }

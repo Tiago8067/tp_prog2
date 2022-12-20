@@ -1,6 +1,7 @@
 package com.example.prog2teste1;
 
-public class Utilizador {
+public abstract class Utilizador {
+    private int id;
     private  String username;
     private  String email;
     private  String password;
@@ -22,6 +23,14 @@ public class Utilizador {
         this.dataDeNascimento = dataDeNascimento;
         this.codigoPostal = codigoPostal;
         this.morada = morada;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getUsername() {
@@ -87,4 +96,6 @@ public class Utilizador {
     public void setMorada(String morada) {
         this.morada = morada;
     }
+
+    public abstract void login(Utilizador utilizador);
 }
