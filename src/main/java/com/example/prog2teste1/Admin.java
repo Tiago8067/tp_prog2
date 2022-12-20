@@ -33,6 +33,14 @@ public class Admin extends Utilizador{
         else{
             System.out.println("login SEM Sucesso");
         }
+    }
+
+    public void registarAdmin(Utilizador utilizador) {
+        Scanner scanner = new Scanner(System.in);
+        String username;
+
+        System.out.println("User: ");
+        username = scanner.next();
 
     }
 }

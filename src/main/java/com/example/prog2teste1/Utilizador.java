@@ -23,6 +23,7 @@ public abstract class Utilizador {
         this.dataDeNascimento = dataDeNascimento;
         this.codigoPostal = codigoPostal;
         this.morada = morada;
+        this.id = 0;
     }
 
     public int getId() {

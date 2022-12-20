@@ -10,7 +10,7 @@ public class Repositorio {
         this.utilizadorMap = new HashMap<>();
     }
 
-    public void adicionaAdmin(Utilizador utilizador) {
+    public void verificaUser(Utilizador utilizador) {
         if (this.utilizadorMap.containsKey(utilizador.getUsername()))
             System.out.println("Duplicado");
         else{
